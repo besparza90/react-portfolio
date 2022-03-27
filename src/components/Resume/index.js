@@ -4,7 +4,7 @@ const Resume = () => {
 
     return (
         <section className='my-5 text-background'>
-             <p>Download my resume</p>
+             <p>Download my <a href={require(`https://besparza90.github.io/react-portfolio/static/media/reactresume.pdf`).default}>resume</a></p>
         </section>
     )
 }
