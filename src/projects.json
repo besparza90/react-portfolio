@@ -1,0 +1,50 @@
+[
+    {
+        "id" : 0,
+        "name": "Budget Tracker",
+        "description": "A budget tracker that can work offline",
+        "url": "https://infinite-earth-58928.herokuapp.com/",
+        "github": "https://github.com/besparza90/budget-tracker",
+        "image" : "budget"
+    },
+    {
+        "id" : 1,
+        "name": "Marketing Strategy",
+        "description": "A webpage for a marketing firm",
+        "url": "https://besparza90.github.io/module-1/",
+        "github": "https://github.com/besparza90/module-1",
+        "image" : "market"
+    }, 
+    {
+        "id" : 2,
+        "name": "Note Taker",
+        "description": "An application that save your notes",
+        "url": "https://module-11.herokuapp.com/",
+        "github": "https://github.com/besparza90/module-11",
+        "image" : "note"
+    },
+    {
+        "id" : 3,
+        "name":"Code Quiz",
+        "description": "A fun quiz to test your coding knowledge",
+        "url": "https://besparza90.github.io/module-4/",
+        "github": "https://github.com/besparza90/module-4",
+        "image" : "quiz"
+    },
+    {
+        "id" : 4,
+        "name": "Work Day Scheduler",
+        "description": "An application to schedule your work day",
+        "url": "https://besparza90.github.io/module-5/",
+        "github": "https://github.com/besparza90/module-5",
+        "image" : "scheduler"
+    },
+    {
+        "id" : 5,
+        "name": "Taskinator",
+        "description": "An application that allows you to organize your tasks",
+        "url": "https://besparza90.github.io/taskinator/",
+        "github": "https://github.com/besparza90/taskinator",
+        "image" : "task"
+    }
+]

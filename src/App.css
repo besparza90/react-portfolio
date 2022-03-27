@@ -15,11 +15,10 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  max-height: 10vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +34,161 @@
   to {
     transform: rotate(360deg);
   }
+}
+@media screen and (max-width: 600px) {
+  .App-header {
+    display: block
+  }
+}
+
+/*About*/
+.bio-photo {
+  border-radius: 20%;
+  width: 200px;
+}
+
+.about {
+  margin: 10%;
+}
+
+/*Contact*/
+label {
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+}
+
+input {
+  width: 50%;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.button1 {
+  border-radius: 20%;
+  padding: 10px;
+  background-color: red;
+}
+
+
+/*Nav*/
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  justify-content: space-between;
+  padding: 15px;
+  text-align: end;
+}
+
+span {
+  cursor: pointer;
+}
+
+span:hover {
+  color: grey;
+}
+
+.navActive {
+  color: grey
+}
+
+
+@media screen and (max-width: 600px) {
+  .nav-item {
+      padding: 5px;
+  }
+}
+
+
+/*Projects*/
+.tile {
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+  border-radius: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.budget {
+  background-image: url('./assets/images/budget.png');
+}
+
+.market {
+  background-image: url('./assets/images/market.png');
+}
+
+.note {
+  background-image: url('./assets/images/note.png');
+}
+
+.quiz {
+  background-image: url('./assets/images/quiz.png');
+}
+
+.scheduler {
+  background-image: url('./assets/images/scheduler.png');
+}
+
+.task {
+  background-image: url('./assets/images/task.png');
+}
+
+.image {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  height: 100%;
+  align-content: center;
+  position: relative;
+  padding-top: 35%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.image:hover {
+  opacity: 1;
+}
+
+.middle:hover {
+  opacity: 0.9;
+  background-color:black;
+  border-radius: 24px;
+}
+
+.text {
+  color: white;
+  opacity: 1;
+}
+
+.description-margin {
+  margin-bottom: 8px;
+}
+
+.wrapper {
+  padding-top: 50px;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+  margin: auto;
 }
