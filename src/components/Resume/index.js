@@ -4,7 +4,7 @@ const Resume = () => {
 
     return (
         <section className='my-5 text-background'>
-            <p>Please download my resume</p>
+             <p>Download my resume</p>
         </section>
     )
 }
