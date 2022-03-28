@@ -1,3 +1,7 @@
+# React Portfolio
+
+This application is a portfolio that is built with React. It allows user to navigate to different pages without the page reloading. It offers links to other projects and a contact form where you can enter your email. The application is deployed to GitHub Pages.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
