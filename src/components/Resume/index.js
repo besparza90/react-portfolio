@@ -4,7 +4,7 @@ const Resume = () => {
 
     return (
         <section className='my-5 text-background'>
-            <h1 data-testid='h1tag'>Skills</h1>
+            <h1>Skills</h1>
 
             <ul>
                 <li>HTML</li>
