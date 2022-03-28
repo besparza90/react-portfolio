@@ -4,9 +4,18 @@ const Resume = () => {
 
     return (
         <section className='my-5 text-background'>
-            <a href="https://besparza90.github.io/react-portfolio//build/static/media/reactresume.pdf" target="_blank" rel= "noreferrer">
-            Download my resume
-        </a>{" "}
+            <h1 data-testid='h1tag'>Skills</h1>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>SQL</li>
+                <li>Progressive Web Apps</li>
+
+            </ul>
         </section>
     )
 }
