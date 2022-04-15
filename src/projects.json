@@ -9,11 +9,11 @@
     },
     {
         "id" : 1,
-        "name": "Marketing Strategy",
-        "description": "A webpage for a marketing firm",
-        "url": "https://besparza90.github.io/module-1/",
-        "github": "https://github.com/besparza90/module-1",
-        "image" : "market"
+        "name": "Pump Plunder",
+        "description": "A webpage for finding gas stations",
+        "url": "https://pump-plunder.herokuapp.com/",
+        "github": "https://github.com/Afaed/Pump-Plunder",
+        "image" : "gas"
     }, 
     {
         "id" : 2,
