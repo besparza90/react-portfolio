@@ -13,7 +13,7 @@
         "description": "A webpage for finding gas stations",
         "url": "https://pump-plunder.herokuapp.com/",
         "github": "https://github.com/Afaed/Pump-Plunder",
-        "image" : "gas"
+        "image" : "market"
     }, 
     {
         "id" : 2,
